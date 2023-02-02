@@ -27,7 +27,7 @@ function App() {
       <Route path='/institutedashboard' element={<><NavDasboard/><InstituteData/></>}/>
       <Route path='/governmentdashboard' element={<><NavDasboard/><GovernmentRest/></>}/>
       <Route path='/aboutus' element={<><NavHome/><AboutUs/></>}/>
-      <Route path='/contactus' element={<><NavHome/><Assignment/></>}/>
+      <Route path='/contactus' element={<><NavHome/><ContactUS1/></>}/>
     </Routes>
       </Router>
     // <Router>
