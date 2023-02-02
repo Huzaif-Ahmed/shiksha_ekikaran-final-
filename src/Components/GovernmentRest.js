@@ -10,7 +10,7 @@ export default function GovernmentRest() {
         <div class="col-lg-2 col-md-4 col-sm-6 col-12 rounded-end shadow" style={{"backgroundColor": "rgb(75, 75, 177)"}}>
                 <b><h2 class="px-2 py-4 text-light" >DASHBOARD</h2></b>
                 {/* <!-- Navigation links in sidebar--> */}
-                <p class="py-3"><Link to="/instituteanalytics" class="text-dark text-decoration-none"><img  src="analytics_symbol.png" alt=""/><b class="ms-3 fs-4 text-light" >Analytics</b></Link></p>
+                <p class="py-3"><Link to="/governmentdashboard" class="text-dark text-decoration-none"><img  src="analytics_symbol.png" alt=""/><b class="ms-3 fs-4 text-light" >Analytics</b></Link></p>
                 
             </div>
             {/* <!--Contains the main content
