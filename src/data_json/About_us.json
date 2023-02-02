@@ -1,0 +1,42 @@
+[
+    {
+        "collapsetarget":"#collapseone",
+        "heading":"1",
+        "collapse":"1",
+        "name":"MOHAMMED HUZAIF AHMED",
+        "email":"rexhuzaifahmed@gmail.com",
+        "phone_no": 6309675060
+    },
+    {
+        "collapsetarget":"#collapsetwo",
+        "heading":"2",
+        "collapse":"2",
+        "name":"AGAMAMIDI SANJAY",
+        "email":"sanjay.agamamidi@gmail.com",
+        "phone_no": 9866838522
+    },
+    {
+        "collapsetarget":"#collapsethree",
+        "heading":"3",
+        "collapse":"3",
+        "name":"ATHARV TIWARI",
+        "email":"rexhuzaifahmed@gmail.com",
+        "phone_no": 6309675060
+    },
+    {
+        "collapsetarget":"#collapsefour",
+        "heading":"4",
+        "collapse":"4",
+        "name":"UMANG BASUTHKAR",
+        "email":"rexhuzaifahmed@gmail.com",
+        "phone_no": 6309675060
+    },
+    {
+        "collapsetarget":"#collapsefive",
+        "heading":"5",
+        "collapse":"5",
+        "name":"MAREM NAREN REDDY",
+        "email":"maramnaren.09@gmail.com",
+        "phone_no": 6309675060
+    }
+]

@@ -1,5 +1,4 @@
-import React from "react";
-import './App.css';
+import React from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import  NavHome  from './Components/NavHome';
 import  HomeRest  from './Components/HomeRest';
@@ -14,9 +13,8 @@ import NavDasboard from './Components/NavDasboard';
 import InstituteRestAnalytics from './Components/InstituteRestAnalytics';
 import GovernmentRest from './Components/GovernmentRest';
 import ContactUS1 from "./Components/ContactUS1";
-import Assignment from "./Components/Assignment";
 
-function App() {
+export default function Routes1() {
   return (
     <Router>
       <Routes>
@@ -27,22 +25,8 @@ function App() {
       <Route path='/institutedashboard' element={<><NavDasboard/><InstituteData/></>}/>
       <Route path='/governmentdashboard' element={<><NavDasboard/><GovernmentRest/></>}/>
       <Route path='/aboutus' element={<><NavHome/><AboutUs/></>}/>
-      <Route path='/contactus' element={<><NavHome/><Assignment/></>}/>
+      <Route path='/contactus' element={<><NavHome/><ContactUS1/></>}/>
     </Routes>
       </Router>
-    // <Router>
-    //   <Routes>
-    //     <Route path='/' element={<><NavHome/><HomeRest/></>}/>
-    //     <Route path='/login' element={<><NavLogin/><LoginRest/></>}/>
-    //     <Route path='/register' element={<><NavRegister/><RegisterRest/></>}/>
-    //     <Route path='/aboutus' element={<><NavHome/><AboutUs/></>}/>
-    //     <Route path='/contactus' element={<><NavHome/><ContactUs/></>}/>
-        // <Route path='/institutedashboard' element={<><NavDasboard/><InstituteData/></>}/>
-    //     <Route path='/instituteanalytics' element={<><NavDasboard/><InstituteRestAnalytics/></>}/>
-    //     <Route path='/governmentdashboard' element={<><NavDasboard/><GovernmentRest/></>}/>
-    //   </Routes>
-    // </Router>
-  );
+  )
 }
-
-export default App;
