@@ -15,6 +15,7 @@ import InstituteRestAnalytics from './Components/InstituteRestAnalytics';
 import GovernmentRest from './Components/GovernmentRest';
 import ContactUS1 from "./Components/ContactUS1";
 import Assignment from "./Components/Assignment";
+import RegisterRest1 from "./Components/RegisterRest1";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
       <Routes>
       <Route path='/' element={<><NavHome/><HomeRest/></>}/>
       <Route path='/login' element={<><NavLogin/><LoginRest/></>}/>
-      <Route path='/register' element={<><NavRegister/><RegisterRest/></>}/>
+      <Route path='/register' element={<><NavRegister/><RegisterRest1/></>}/>
       <Route path='/instituteanalytics' element={<><NavDasboard/><InstituteRestAnalytics/></>}/>
       <Route path='/institutedashboard' element={<><NavDasboard/><InstituteData/></>}/>
       <Route path='/governmentdashboard' element={<><NavDasboard/><GovernmentRest/></>}/>

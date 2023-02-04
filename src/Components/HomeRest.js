@@ -36,8 +36,8 @@ export default function HomeRest() {
   <div className="container overflow-hidden text-center">
     <div className="row gy-5 gx-5 mb-5">
       <div className="col-6">
-        <Link to="/login" style={{"color": "black", "text-decoration": "none"}}>
-            <div className="p-5 border rounded bg-light shadow" style={{"background-image":"linear-gradient(to bottom right,blue, yellow)"}}><img src="login_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
+        <Link to="/login" style={{"color": "black", "textDecoration": "none"}}>
+            <div className="p-5 border rounded bg-light shadow" style={{"backgroundImage":"linear-gradient(to bottom right,blue, yellow)"}}><img src="login_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
                 <b className="fs4">Sign in</b>
                 <br></br>
                 If you already have an account please login to proceed 
@@ -46,8 +46,8 @@ export default function HomeRest() {
         </Link>
       </div>
       <div className="col-6">
-        <Link to="/register" style={{"color": "black", "text-decoration": "none"}}>
-            <div className="p-5 border rounded bg-light" style={{"background-image":"linear-gradient(to bottom left,blue, yellow)"}}><img src="register_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
+        <Link to="/register" style={{"color": "black", "textDecoration": "none"}}>
+            <div className="p-5 border rounded bg-light" style={{"backgroundImage":"linear-gradient(to bottom left,blue, yellow)"}}><img src="register_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
                 <b className="fs4">Sign up</b>
                 <br></br>
                 If you do not have an account please Register
@@ -56,8 +56,8 @@ export default function HomeRest() {
         </Link>
       </div>
       <div className="col-6">
-        <Link to="/aboutus" style={{"color": "black", "text-decoration": "none;"}}>
-            <div className="p-5 border rounded bg-light" style={{"background-image":"linear-gradient(to top right,blue, yellow) "}}><img src="about_us_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
+        <Link to="/aboutus" style={{"color": "black", "textDecoration": "none;"}}>
+            <div className="p-5 border rounded bg-light" style={{"backgroundImage":"linear-gradient(to top right,blue, yellow) "}}><img src="about_us_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
                 <b className="fs4">About us</b>
                 <br></br>
                 Know more about us and the working of this structure
@@ -66,8 +66,8 @@ export default function HomeRest() {
         </Link>
       </div>
       <div className="col-6">
-        <Link to="/contactus" style={{"color": "black", "text-decoration": "none;"}}>
-            <div className="p-5 border rounded bg-light" style={{"background-image":"linear-gradient(to bottom right,yellow, blue) "}}><img src="contact_us_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
+        <Link to="/contactus" style={{"color": "black", "textDecoration": "none;"}}>
+            <div className="p-5 border rounded bg-light" style={{"backgroundImage":"linear-gradient(to bottom right,yellow, blue) "}}><img src="contact_us_logo.png" alt="LOGIN!" style={{"height":" 60px;"}}/><br></br>
                 <b className="fs4">Contact us</b>
                 <br></br>
                  Contact us if any queries regarding the site issues 
