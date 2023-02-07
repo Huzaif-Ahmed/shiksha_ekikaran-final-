@@ -16,6 +16,7 @@ import GovernmentRest from './Components/GovernmentRest';
 import ContactUS1 from "./Components/ContactUS1";
 import Assignment from "./Components/Assignment";
 import RegisterRest1 from "./Components/RegisterRest1";
+import Fileuploader from "./Components/Fileuploader";
 
 function App() {
   return (
@@ -31,18 +32,7 @@ function App() {
       <Route path='/contactus' element={<><NavHome/><ContactUS1/></>}/>
     </Routes>
       </Router>
-    // <Router>
-    //   <Routes>
-    //     <Route path='/' element={<><NavHome/><HomeRest/></>}/>
-    //     <Route path='/login' element={<><NavLogin/><LoginRest/></>}/>
-    //     <Route path='/register' element={<><NavRegister/><RegisterRest/></>}/>
-    //     <Route path='/aboutus' element={<><NavHome/><AboutUs/></>}/>
-    //     <Route path='/contactus' element={<><NavHome/><ContactUs/></>}/>
-        // <Route path='/institutedashboard' element={<><NavDasboard/><InstituteData/></>}/>
-    //     <Route path='/instituteanalytics' element={<><NavDasboard/><InstituteRestAnalytics/></>}/>
-    //     <Route path='/governmentdashboard' element={<><NavDasboard/><GovernmentRest/></>}/>
-    //   </Routes>
-    // </Router>
+    
   );
 }
 

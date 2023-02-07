@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+import Fileuploader from './Fileuploader'
+
 export default function InstituteData() {
   return (
     <div>
@@ -20,7 +22,7 @@ export default function InstituteData() {
                 <p className="text-end">
                     <button className="btn btn-primary btn-outline-light fs-5 mt-5 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">FILTER</button>
                 </p>
-                <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabIndex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                     <div className="offcanvas-header">
                       <p className="offcanvas-title tex" id="offcanvasScrollingLabel">FILTERS</p>
                       <button type="button" className="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -74,7 +76,7 @@ export default function InstituteData() {
                 {/* <!-- OFFCANVAS ENDS --> */}
 
 
-                <div className="accordion" id="accordionPanelsStayOpenExample">
+                {/* <div className="accordion" id="accordionPanelsStayOpenExample">
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="panelsStayOpen-headingOne">
                       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -147,7 +149,9 @@ export default function InstituteData() {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
+                <Fileuploader/>
+                
                 
             </div>
         </div>

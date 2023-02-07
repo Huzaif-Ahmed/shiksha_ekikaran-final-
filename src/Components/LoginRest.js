@@ -13,6 +13,7 @@ export default function LoginRest() {
         e.preventDefault();
         fetch("http://localhost:4500/login",{method:'POST'})
     }
+    
     return (
         <section className="vh-100">
             <div className="container  mt-5 border border-1 border-dark rounded-1 px-3 " style={{ "height": "80%" }}>
@@ -48,8 +49,12 @@ export default function LoginRest() {
                                         <button type="button" className="btn btn-primary btn-md  ms-auto me-auto"style={{ "padding-left": "2.5rem", "padding-right": "2.5rem" }}> Login </button>
                                   </Link> */}
                                     
-                                        <button type="submit" className="btn btn-primary btn-md  ms-auto me-auto"style={{ "paddingLeft": "2.5rem", "paddingRight": "2.5rem" }}> Login </button>
         
+                                        <button type="submit" className="btn btn-primary btn-md  ms-auto me-auto"style={{ "paddingLeft": "2.5rem", "paddingRight": "2.5rem" }}> Login </button>
+                                        <Link to={"/instituteanalytics"}>
+                                        
+                                        <button type="submit" className="btn btn-primary btn-md  ms-auto me-auto"style={{ "paddingLeft": "2.5rem", "paddingRight": "2.5rem" }}> Login </button>
+                                        </Link>
                                   </div>
                               </form>
                           </div>
